@@ -1,0 +1,221 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: url('images/background.svg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(45deg, #FF6B6B, #FFD93D);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.intro {
+    background-image: url('images/flower.svg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 100px;
+}
+
+.benefits {
+    background: linear-gradient(45deg, #FFD700, #FF6347);
+    color: white;
+}
+
+.benefits ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.benefits li {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.discount {
+    background: linear-gradient(45deg, #32CD32, #00BFFF);
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.discount p {
+    margin: 0.5rem 0;
+}
+
+h2,
+h3 {
+    color: #00BFFF;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+}
+
+a {
+    color: #FF8C00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FF4500;
+}
+
+.video iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    display: block;
+    margin: 0 auto;
+}
+
+.playlist iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    display: block;
+    margin: 0 auto;
+}
+
+.cta {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    background: linear-gradient(45deg, #FF00FF, #00FFFF);
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    background: linear-gradient(45deg, #FF1493, #00CED1);
+    transform: scale(1.05);
+}
+
+.hashtags {
+    text-align: center;
+    font-style: italic;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #7B1FA2;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #8A2BE2;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .video iframe {
+        height: 250px;
+    }
+
+    .playlist iframe {
+        height: 250px;
+    }
+}
+
+/* Elementos decorativos con rombos */
+header::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(45deg, #FFD700, #FF6347);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    opacity: 0.8;
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(45deg, #32CD32, #00BFFF);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    opacity: 0.8;
+}
+
+header {
+    position: relative;
+}
