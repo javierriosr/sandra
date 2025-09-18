@@ -1,16 +1,16 @@
 /* Colores púrpuras profundos */
 :root {
-    --purple-dark: #4a148c;
-    --purple-medium: #6a1b9a;
-    --purple-light: #8e24aa;
-    --purple-accent: #ba68c8;
-    --purple-soft: #e1bee7;
-    --purple-pale: #ede3f3;
+    --purple-dark: #3c2c84;
+    --purple-medium: #3c2c84;
+    --purple-light: #3c2c84;
+    --purple-accent: #3c2c84;
+    --purple-soft: #3c2c84;
+    --purple-pale: #3c2c84;
     --white: #fff;
 }
 
 body {
-    font-family: 'Segoe UI', Arial, sans-serif;
+    font-family: Helvetica, sans-serif;
     line-height: 1.8;
     margin: 0;
     padding: 0;
@@ -39,7 +39,7 @@ header h1 {
 }
 
 header h1 span {
-    color: var(--purple-accent);
+    color: var(--white);
 }
 
 main {
@@ -157,16 +157,16 @@ a:hover {
     border-radius: 50px;
     font-size: 1.3rem;
     font-weight: 700;
-    box-shadow: 0 6px 20px rgba(106, 27, 154, 0.4);
+    box-shadow: 0 6px 20px rgba(204, 214, 13, 0.4);
     transition: all 0.4s ease;
-    border: 2px solid var(--purple-accent);
+    border: 2px solid var(--white);
 }
 
 .btn:hover {
     background: linear-gradient(135deg, var(--purple-accent) 0%, var(--purple-soft) 100%);
-    color: var(--purple-medium);
+    color: var(--white);
     transform: scale(1.08);
-    box-shadow: 0 8px 25px rgba(186, 104, 200, 0.5);
+    box-shadow: 0 8px 25px rgba(234, 226, 236, 0.5);
 }
 
 .hashtags {
@@ -234,4 +234,12 @@ header::after {
     background: linear-gradient(135deg, var(--purple-pale) 0%, var(--purple-soft) 100%);
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
     opacity: 0.7;
+}
+
+.contact-info {
+    color: var(--white) !important;
+}
+
+.contact-info a {
+    color: var(--white) !important;
 }
