@@ -260,3 +260,25 @@ header::after {
 .contact-info a {
     color: var(--white) !important;
 }
+
+.scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: var(--purple-accent);
+    color: var(--white);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.scroll-to-top:hover {
+    background: var(--purple-medium);
+    transform: scale(1.1);
+}
