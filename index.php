@@ -12,7 +12,7 @@
     <meta http-equiv="Expires" content="0">
     <title>Sanación Genética de Mandatos Familiares</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="style.css?v=5.4">
+    <link rel="stylesheet" href="style.css?v=5.6">
 </head>
 
 <body>
