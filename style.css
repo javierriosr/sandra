@@ -20,11 +20,9 @@ body {
 }
 
 header {
-    background: linear-gradient(135deg, var(--purple-dark) 0%, var(--purple-medium) 50%, var(--purple-light) 100%);
     color: var(--white);
     text-align: center;
     padding: 3rem 1rem 2.5rem 1rem;
-    box-shadow: 0 6px 20px rgba(106, 27, 154, 0.3);
     position: relative;
     border-bottom: 4px solid var(--purple-accent);
 }
@@ -227,30 +225,8 @@ footer {
     }
 }
 
-/* Elementos decorativos con rombos púrpuras */
-header::before {
-    content: '';
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 60px;
-    height: 60px;
-    background: linear-gradient(135deg, var(--purple-soft) 0%, var(--purple-pale) 100%);
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-    opacity: 0.7;
-}
 
-header::after {
-    content: '';
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 60px;
-    height: 60px;
-    background: linear-gradient(135deg, var(--purple-pale) 0%, var(--purple-soft) 100%);
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-    opacity: 0.7;
-}
+
 
 .contact-info {
     color: var(--white) !important;
