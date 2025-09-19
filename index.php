@@ -97,7 +97,7 @@
         </section>
     </main>
     <footer>
-        <p><i class="bi bi-star"></i> &copy; 2025 Sandra Santa María Coach | Sanación Genética y Coaching
+        <p><i class="bi bi-star"></i> &copy; 2025 Sandra Santamaría Coach | Sanación Genética y Coaching
             Transformacional.
             Todos los derechos reservados.</p>
     </footer>

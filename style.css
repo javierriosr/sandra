@@ -1,12 +1,12 @@
 /* Colores púrpuras profundos */
 :root {
-    --purple-dark: #3c2c84;
-    --purple-medium: #3c2c84;
-    --purple-light: #3c2c84;
-    --purple-accent: #3c2c84;
-    --purple-soft: #3c2c84;
-    --purple-pale: #3c2c84;
-    --white: #fff;
+    --purple-dark: #fefdff;
+    --purple-medium: #fff8ff;
+    --purple-light: #fff;
+    --purple-accent: #fff;
+    --purple-soft: #fff;
+    --purple-pale: #fff;
+    --white: #3c2c84;
 }
 
 body {
@@ -61,7 +61,6 @@ section {
 
 .intro {
     background: linear-gradient(135deg, var(--purple-medium) 0%, var(--purple-light) 50%, var(--purple-accent) 100%);
-    background-image: url('images/flower.svg');
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 150px;
@@ -87,8 +86,8 @@ section {
 }
 
 .discount {
-    background: linear-gradient(90deg, var(--purple-medium) 0%, var(--white) 100%);
-    color: var(--purple-medium);
+    background: linear-gradient(90deg, var(--purple-medium) 0%, var(--purple-accent) 100%);
+    color: var(--white);
     text-align: center;
     font-size: 1.2rem;
     border-left: 6px solid var(--purple-light);
@@ -103,7 +102,7 @@ h3 {
     color: var(--white);
     font-weight: 700;
     letter-spacing: 1.5px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 2px lab(14.56% 44.54 -57.52 / 0.2);
     margin-bottom: 1rem;
 }
 
@@ -141,7 +140,7 @@ a:hover {
 }
 
 .cta h3 {
-    color: var(--purple-medium) !important;
+    color: var(--white) !important;
     background: rgba(255, 255, 255, 0.9);
     padding: 1rem;
     border-radius: 10px;
@@ -157,7 +156,7 @@ a:hover {
     border-radius: 50px;
     font-size: 1.3rem;
     font-weight: 700;
-    box-shadow: 0 6px 20px rgba(204, 214, 13, 0.4);
+    box-shadow: 0 6px 20px rgba(23, 23, 22, 0.4);
     transition: all 0.4s ease;
     border: 2px solid var(--white);
 }
@@ -266,8 +265,8 @@ header::after {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background: var(--purple-accent);
-    color: var(--white);
+    background: var(--white);
+    color: var(--purple-accent);
     border: none;
     border-radius: 50%;
     width: 50px;
