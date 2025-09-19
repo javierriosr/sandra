@@ -18,8 +18,7 @@
 
 <body>
     <header>
-        <h1>Sanación Genética de Mandatos Familiares <span>- Transforma tu
-                ADN emocional</span></h1>
+        <h1>Sanación Genética de Mandatos Familiares <span></span></h1>
     </header>
     <main>
         <section class="intro">
@@ -70,6 +69,8 @@
             <p class="contact-info"><i class="bi bi-telephone"></i> <strong>Síguenos en Instagram:</strong> <a
                     href="https://www.instagram.com/Sandrasantamariacoach" target="_blank">@Sandrasantamariacoach</a>
             </p>
+            <a href="https://buymeacoffee.com/Sandrasantamaria/e/457191" target="_blank" class="btn">Reservar
+                tu Cupo ahora</a>
         </section>
 
         <section class="testimonials">
@@ -77,9 +78,15 @@
             <div class="testimonial">
                 <blockquote>
                     <i class="bi bi-quote"></i>
-                    Gracias al acompañamiento de Sandra he podido identificar patrones heredados que antes no veía con claridad. Con el tiempo fui desarrollando una visión más profunda y, sobre todo, adquiriendo las herramientas necesarias para reconocerlos y trabajarlos, rompiendo poco a poco el velo que a veces no nos permite avanzar.<br><br>
-                    La utilización de códigos me ha ayudado a empezar a vibrar en una frecuencia diferente, a pedirle al universo con confianza y, lo más importante, a sentirme merecedora de recibirlo.<br><br>
-                    He integrado hábitos que antes no formaban parte de mi vida, y con ello he comenzado a conectar cada vez más con mi propósito. Este proceso no solo me ha dado claridad, sino también la fuerza para avanzar con mayor plenitud y coherencia en mi camino.
+                    Gracias al acompañamiento de Sandra he podido identificar patrones heredados que antes no veía con
+                    claridad. Con el tiempo fui desarrollando una visión más profunda y, sobre todo, adquiriendo las
+                    herramientas necesarias para reconocerlos y trabajarlos, rompiendo poco a poco el velo que a veces
+                    no nos permite avanzar.<br><br>
+                    La utilización de códigos me ha ayudado a empezar a vibrar en una frecuencia diferente, a pedirle al
+                    universo con confianza y, lo más importante, a sentirme merecedora de recibirlo.<br><br>
+                    He integrado hábitos que antes no formaban parte de mi vida, y con ello he comenzado a conectar cada
+                    vez más con mi propósito. Este proceso no solo me ha dado claridad, sino también la fuerza para
+                    avanzar con mayor plenitud y coherencia en mi camino.
                     <i class="bi bi-quote"></i>
                 </blockquote>
                 <cite>- Andrea Liliana</cite>
@@ -88,10 +95,14 @@
                 <blockquote>
                     <i class="bi bi-quote"></i>
                     "Profundamente Transformadora".!!! Una experiencia reveladora..!!<br><br>
-                    Les cuento que haber hecho el programa de Mandatos con Sandra Santamaría, ha sido esta experiencia estupenda y verdaderamente Liberadora para mí…<br><br>
-                    Me he enfrentado a acuerdos, creencia y verdades aceptadas sin cuestionamiento por obediencia .!!<br><br>
-                    Nunca pensé que tenían tanto impacto en mi percepción de vida y en la forma de relacionarme con otras personas y el entorno .!!<br><br>
-                    Me siento ligera, descargada de expectativas.. una libertad que me ha regalado autonomía creativa y alineación con mi esencia Amorosa..<br><br>
+                    Les cuento que haber hecho el programa de Mandatos con Sandra Santamaría, ha sido esta experiencia
+                    estupenda y verdaderamente Liberadora para mí…<br><br>
+                    Me he enfrentado a acuerdos, creencia y verdades aceptadas sin cuestionamiento por obediencia
+                    .!!<br><br>
+                    Nunca pensé que tenían tanto impacto en mi percepción de vida y en la forma de relacionarme con
+                    otras personas y el entorno .!!<br><br>
+                    Me siento ligera, descargada de expectativas.. una libertad que me ha regalado autonomía creativa y
+                    alineación con mi esencia Amorosa..<br><br>
                     Altamente recomendable, una total Benedicion.!! Gracias Sandrita .!!
                     <i class="bi bi-quote"></i>
                 </blockquote>
@@ -110,7 +121,7 @@
         <section class="discount">
             <h3><i class="bi bi-cash"></i> ¡Promoción exclusiva para nuevas líderes!</h3>
             <p>Accede a tu transformación con un precio especial por tiempo limitado.</p>
-            <p><strong>Valor regular: $134 USD</strong></p>
+            <p><strong>Valor: $134 USD</strong></p>
         </section>
         <section class="cta">
             <h3><i class="bi bi-rocket"></i> ¡Reserva tu lugar y comienza tu sanación genética!</h3>
@@ -130,32 +141,32 @@
     </footer>
     <button id="scrollToTopBtn" class="scroll-to-top"><i class="bi bi-arrow-up-circle-fill"></i></button>
     <script>
-        // Scroll to top button
-        const scrollToTopBtn = document.getElementById('scrollToTopBtn');
-        window.addEventListener('scroll', () => {
-            if (window.pageYOffset > 300) {
-                scrollToTopBtn.style.display = 'block';
-            } else {
-                scrollToTopBtn.style.display = 'none';
+    // Scroll to top button
+    const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+    window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+            scrollToTopBtn.style.display = 'block';
+        } else {
+            scrollToTopBtn.style.display = 'none';
+        }
+    });
+    scrollToTopBtn.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+
+    // Fade in on scroll
+    const sections = document.querySelectorAll('section');
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.animation = 'fadeIn 1s ease-in-out';
             }
         });
-        scrollToTopBtn.addEventListener('click', () => {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        });
-
-        // Fade in on scroll
-        const sections = document.querySelectorAll('section');
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.animation = 'fadeIn 1s ease-in-out';
-                }
-            });
-        });
-        sections.forEach(section => observer.observe(section));
+    });
+    sections.forEach(section => observer.observe(section));
     </script>
 </body>
 
