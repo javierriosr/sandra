@@ -12,7 +12,7 @@
     <meta http-equiv="Expires" content="0">
     <title>Sanación Genética de Mandatos Familiares</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="style.css?v=5.8">
+    <link rel="stylesheet" href="style.css?v=5.9">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 </head>
 
@@ -72,6 +72,33 @@
             </p>
         </section>
 
+        <section class="testimonials">
+            <h3><i class="bi bi-chat-quote"></i> Testimonios de Participantes</h3>
+            <div class="testimonial">
+                <blockquote>
+                    <i class="bi bi-quote"></i>
+                    Gracias al acompañamiento de Sandra he podido identificar patrones heredados que antes no veía con claridad. Con el tiempo fui desarrollando una visión más profunda y, sobre todo, adquiriendo las herramientas necesarias para reconocerlos y trabajarlos, rompiendo poco a poco el velo que a veces no nos permite avanzar.<br><br>
+                    La utilización de códigos me ha ayudado a empezar a vibrar en una frecuencia diferente, a pedirle al universo con confianza y, lo más importante, a sentirme merecedora de recibirlo.<br><br>
+                    He integrado hábitos que antes no formaban parte de mi vida, y con ello he comenzado a conectar cada vez más con mi propósito. Este proceso no solo me ha dado claridad, sino también la fuerza para avanzar con mayor plenitud y coherencia en mi camino.
+                    <i class="bi bi-quote"></i>
+                </blockquote>
+                <cite>- Andrea Liliana</cite>
+            </div>
+            <div class="testimonial">
+                <blockquote>
+                    <i class="bi bi-quote"></i>
+                    "Profundamente Transformadora".!!! Una experiencia reveladora..!!<br><br>
+                    Les cuento que haber hecho el programa de Mandatos con Sandra Santamaría, ha sido esta experiencia estupenda y verdaderamente Liberadora para mí…<br><br>
+                    Me he enfrentado a acuerdos, creencia y verdades aceptadas sin cuestionamiento por obediencia .!!<br><br>
+                    Nunca pensé que tenían tanto impacto en mi percepción de vida y en la forma de relacionarme con otras personas y el entorno .!!<br><br>
+                    Me siento ligera, descargada de expectativas.. una libertad que me ha regalado autonomía creativa y alineación con mi esencia Amorosa..<br><br>
+                    Altamente recomendable, una total Benedicion.!! Gracias Sandrita .!!
+                    <i class="bi bi-quote"></i>
+                </blockquote>
+                <cite>- Patrizia Polito Fava</cite>
+            </div>
+        </section>
+
         <section class="playlist">
             <h3><i class="bi bi-film"></i> Playlist de Videos Relacionados</h3>
             <iframe width="560" height="315"
@@ -103,32 +130,32 @@
     </footer>
     <button id="scrollToTopBtn" class="scroll-to-top"><i class="bi bi-arrow-up-circle-fill"></i></button>
     <script>
-    // Scroll to top button
-    const scrollToTopBtn = document.getElementById('scrollToTopBtn');
-    window.addEventListener('scroll', () => {
-        if (window.pageYOffset > 300) {
-            scrollToTopBtn.style.display = 'block';
-        } else {
-            scrollToTopBtn.style.display = 'none';
-        }
-    });
-    scrollToTopBtn.addEventListener('click', () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    });
-
-    // Fade in on scroll
-    const sections = document.querySelectorAll('section');
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.style.animation = 'fadeIn 1s ease-in-out';
+        // Scroll to top button
+        const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                scrollToTopBtn.style.display = 'block';
+            } else {
+                scrollToTopBtn.style.display = 'none';
             }
         });
-    });
-    sections.forEach(section => observer.observe(section));
+        scrollToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Fade in on scroll
+        const sections = document.querySelectorAll('section');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animation = 'fadeIn 1s ease-in-out';
+                }
+            });
+        });
+        sections.forEach(section => observer.observe(section));
     </script>
 </body>
 
