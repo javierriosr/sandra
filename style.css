@@ -6,7 +6,7 @@
     /* Paleta de Colores Principal */
     --color-primary-dark: #3c2c84;
     --color-accent: #6baecf;
-    --color-text-body: #333;
+    --color-text-body: #3c2c84;
     --color-text-light: #555;
 
     /* Colores del nuevo diseño */
@@ -48,7 +48,7 @@ body {
     line-height: 1.7;
     font-weight: var(--font-weight-normal);
     background: linear-gradient(135deg, var(--bg-light-3), var(--bg-light-2), var(--bg-light-1));
-    color: var(--color-text-body);
+    color: var(--color-primary-dark);
 }
 
 /* ==========================================================================
@@ -220,7 +220,7 @@ header h1 {
 }
 
 .testimonial__text {
-    color: var(--color-text-light);
+    color: var(--color-primary-dark);
 }
 
 .testimonial__rating {
@@ -334,4 +334,8 @@ header h1 {
     header h1 {
         text-shadow: 3px 3px 0 var(--color-brand-shadow);
     }
+}
+
+.p {
+    color: var(--color-text-body);
 }

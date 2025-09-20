@@ -32,9 +32,11 @@
     <main>
         <section class="card card--highlight reveal-on-scroll">
             <h2><i class="bi bi-sparkles"></i> Activa tu poder interior y sana tu linaje</h2>
-            <p>Vive una experiencia transformadora y profunda, diseñada para líderes que buscan sanar su historia y
+            <p class="p">Vive una experiencia transformadora y profunda, diseñada para líderes que buscan sanar su
+                historia y
                 manifestar abundancia desde la raíz genética y emocional.</p>
-            <p>Descubre cómo liberar patrones heredados, reprogramar tu mente y convertirte en la creadora consciente de
+            <p class="p">Descubre cómo liberar patrones heredados, reprogramar tu mente y convertirte en la creadora
+                consciente de
                 tu destino.</p>
         </section>
 
@@ -84,10 +86,10 @@
                     </svg><strong> Plataforma:</strong> Zoom (en vivo)</li>
             </ul>
             <div class="contact-info">
-                <p><i class="bi bi-whatsapp"></i> <strong>Reserva tu cupo:</strong> <a
+                <p class="p"><i class="bi bi-whatsapp"></i> <strong>Reserva tu cupo:</strong> <a
                         href="https://wa.me/573169222256">+57
                         3169222256</a></p>
-                <p><i class="bi bi-instagram"></i> <strong>Síguenos en Instagram:</strong> <a
+                <p class="p"><i class="bi bi-instagram"></i> <strong>Síguenos en Instagram:</strong> <a
                         href="https://www.instagram.com/Sandrasantamariacoach"
                         target="_blank">@Sandrasantamariacoach</a>
                 </p>
@@ -159,19 +161,20 @@
 
         <section class="card card--centered card--highlight reveal-on-scroll">
             <h3><i class="bi bi-gem"></i> Inversión en tu transformación</h3>
-            <p>Accede a esta experiencia única por un valor especial.</p>
+            <p class="p">Accede a esta experiencia única por un valor especial.</p>
             <p class="price"><strong>$134 USD</strong></p>
         </section>
 
         <section class="card card--centered reveal-on-scroll">
             <h3><i class="bi bi-rocket-launch-fill"></i> ¡Comienza tu sanación genética!</h3>
-            <p>Tu linaje puede ser tu mayor fuente de poder. ¡Es hora de reclamarlo!</p>
+            <p class="p">Tu linaje puede ser tu mayor fuente de poder. ¡Es hora de reclamarlo!</p>
             <a href="https://buymeacoffee.com/Sandrasantamaria/e/457191" target="_blank" class="btn">Pagar y Reservar Mi
                 Cupo</a>
         </section>
 
         <section class="hashtags reveal-on-scroll">
-            <p><i class="bi bi-tag-fill"></i> #SanaciónGenética #CoachingDeSanación #LiderazgoFemenino #TransformaTuADN
+            <p class="p"><i class="bi bi-tag-fill"></i> #SanaciónGenética #CoachingDeSanación #LiderazgoFemenino
+                #TransformaTuADN
                 #BienestarEmocional #SanaciónFamiliar #Empoderamiento</p>
         </section>
 
@@ -179,9 +182,9 @@
 
     <footer>
         <div class="contact-info">
-            <p><i class="bi bi-whatsapp"></i> <strong>Contacto y Reservas:</strong> <a href="https://wa.me/573169222256"
-                    target="_blank">+57 3169222256</a></p>
-            <p><i class="bi bi-instagram"></i> <strong>Síguenos en Instagram:</strong> <a
+            <p class="p"><i class="bi bi-whatsapp"></i> <strong>Contacto y Reservas:</strong> <a
+                    href="https://wa.me/573169222256" target="_blank">+57 3169222256</a></p>
+            <p class="p"><i class="bi bi-instagram"></i> <strong>Síguenos en Instagram:</strong> <a
                     href="https://www.instagram.com/Sandrasantamariacoach" target="_blank">@Sandrasantamariacoach</a>
             </p>
         </div>
