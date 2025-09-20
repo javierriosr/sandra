@@ -78,7 +78,7 @@ h4 {
 }
 
 a {
-    color: var(--color-accent);
+    color: var(--color-primary-dark);
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s ease;
@@ -159,6 +159,7 @@ header h1 {
 
 .card--highlight {
     border-left: 8px solid var(--color-accent);
+    background-color: var(--color-accent);
 }
 
 .card--centered {
