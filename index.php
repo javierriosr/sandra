@@ -56,22 +56,44 @@
         </section>
 
         <section class="card card--highlight reveal-on-scroll">
-            <h3><i class="bi bi-check2-circle"></i> Con este taller lograrás:</h3>
-            <ul>
-                <li><i class="bi bi-search"></i> <strong>Identificar y liberar creencias familiares que limitan tu
-                        potencial</strong></li>
-                <li><i class="bi bi-heart"></i> <strong>Sanar heridas emocionales y transformar tu historia
-                        personal</strong></li>
-                <li><i class="bi bi-flower1"></i> <strong>Activar procesos de regeneración y bienestar en tu
-                        linaje</strong></li>
-            </ul>
-
             <h3><i class="bi bi-calendar-event"></i> Detalles del evento:</h3>
             <ul>
-                <li><strong>Fecha:</strong> 25 de Octubre 2025</li>
-                <li><strong>Horarios:</strong> 3 pm a 5 pm / 7 pm a 9 pm</li>
-                <li><strong>Plataforma:</strong> Zoom (en vivo)</li>
+                <li><i class="bi bi-calendar-check-fill"></i><strong> Fecha:</strong> 9 de noviembre 2025</li>
+                <li> <i class="bi bi-clock"></i><strong> Horarios:</strong> 3 pm a 5 pm / 7 pm a 8 pm</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                        width="19" height="19" viewBox="0 0 256 256" xml:space="preserve">
+                        <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+                            transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                            <circle cx="45" cy="45" r="45"
+                                style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(229,229,228); fill-rule: nonzero; opacity: 1;"
+                                transform="  matrix(1 0 0 1 0 0) " />
+                            <circle cx="44.997" cy="44.997" r="44.107"
+                                style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"
+                                transform="  matrix(1 0 0 1 0 0) " />
+                            <circle cx="45.004" cy="45.004" r="40.574"
+                                style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(74,140,255); fill-rule: nonzero; opacity: 1;"
+                                transform="  matrix(1 0 0 1 0 0) " />
+                            <path
+                                d="M 68.82 31.351 l -11.473 8.386 v 10.543 l 11.473 8.386 c 0.818 0.632 1.767 0.818 1.767 -0.874 V 32.225 C 70.587 30.719 69.824 30.533 68.82 31.351 z"
+                                style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"
+                                transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                            <path
+                                d="M 54.167 59.114 c 0.781 0 1.413 -0.632 1.432 -1.413 v -19.06 c -0.019 -4.314 -3.533 -7.791 -7.847 -7.773 h -27.8 c -0.781 0.019 -1.413 0.632 -1.432 1.432 v 19.041 c 0.019 4.314 3.533 7.791 7.847 7.773 H 54.167 z"
+                                style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"
+                                transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                        </g>
+                    </svg><strong> Plataforma:</strong> Zoom (en vivo)</li>
             </ul>
+            <div class="contact-info">
+                <p><i class="bi bi-whatsapp"></i> <strong>Reserva tu cupo:</strong> <a
+                        href="https://wa.me/573169222256">+57
+                        3169222256</a></p>
+                <p><i class="bi bi-instagram"></i> <strong>Síguenos en Instagram:</strong> <a
+                        href="https://www.instagram.com/Sandrasantamariacoach"
+                        target="_blank">@Sandrasantamariacoach</a>
+                </p>
+            </div>
+
             <a href="https://buymeacoffee.com/Sandrasantamaria/e/457191" target="_blank" class="btn">Reservar tu Cupo
                 ahora</a>
         </section>
@@ -147,9 +169,9 @@
 
     <footer>
         <div class="contact-info">
-            <p><i class="bi bi-link"></i> <strong>Reserva tu cupo:</strong> <a href="tel:+573169222256">+57
+            <p><i class="bi bi-telephone"></i> <strong>Reserva tu cupo:</strong> <a href="tel:+573169222256">+57
                     3169222256</a></p>
-            <p><i class="bi bi-telephone"></i> <strong>Síguenos en Instagram:</strong> <a
+            <p><i class="bi bi-instagram"></i> <strong>Síguenos en Instagram:</strong> <a
                     href="https://www.instagram.com/Sandrasantamariacoach" target="_blank">@Sandrasantamariacoach</a>
             </p>
         </div>
