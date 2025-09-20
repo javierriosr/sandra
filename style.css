@@ -1,29 +1,40 @@
-/* --- 1. Variables Globales (Paleta de Colores y Diseño) --- */
+/* ==========================================================================
+   1. VARIABLES GLOBALES Y CONFIGURACIÓN
+   ========================================================================== */
+
 :root {
     /* Paleta de Colores Principal */
     --color-primary-dark: #3c2c84;
     --color-accent: #6baecf;
+    --color-text-body: #333;
+    --color-text-light: #555;
+
+    /* Colores del nuevo diseño */
+    --color-brand-cyan: #29E7CD;
+    --color-brand-blue: #1A86E4;
+    --color-brand-shadow: #19598F;
     --color-gold: #f3c178;
-    --color-dark-gray: #333;
 
     /* Paleta de Fondos */
     --bg-light-1: #ffffff;
     --bg-light-2: #fff8ff;
     --bg-light-3: #fefdff;
 
-    /* Variables del Sistema de Diseño */
+    /* Sistema de Diseño */
     --spacing-sm: 1rem;
     --spacing-md: 1.5rem;
     --spacing-lg: 2rem;
     --spacing-xl: 2.5rem;
-
     --border-radius-md: 16px;
     --border-radius-lg: 50px;
     --font-weight-normal: 400;
     --font-weight-bold: 700;
 }
 
-/* --- 2. Reseteo Básico y Estilos del Body --- */
+/* ==========================================================================
+   2. RESETEO BÁSICO Y ESTILOS GLOBALES
+   ========================================================================== */
+
 *,
 *::before,
 *::after {
@@ -37,22 +48,21 @@ body {
     line-height: 1.7;
     font-weight: var(--font-weight-normal);
     background: linear-gradient(135deg, var(--bg-light-3), var(--bg-light-2), var(--bg-light-1));
-    color: var(--color-primary-dark);
+    color: var(--color-text-body);
 }
 
-/* --- 3. Tipografía General --- */
+/* ==========================================================================
+   3. TIPOGRAFÍA
+   ========================================================================== */
+
 h1,
 h2,
 h3,
 h4 {
     font-weight: var(--font-weight-bold);
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     margin-bottom: var(--spacing-md);
-}
-
-h1 {
-    font-size: clamp(2rem, 5vw, 3rem);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    color: var(--color-primary-dark);
 }
 
 h2 {
@@ -67,7 +77,6 @@ h4 {
     font-size: clamp(1.1rem, 2.5vw, 1.3rem);
 }
 
-/* ... (otros estilos de tipografía) ... */
 a {
     color: var(--color-accent);
     text-decoration: none;
@@ -81,16 +90,71 @@ a:focus {
     color: var(--color-primary-dark);
 }
 
+/* ==========================================================================
+   4. ESTRUCTURA Y LAYOUT
+   ========================================================================== */
 
-/* --- 4. Componente Reutilizable: .card --- */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: var(--spacing-xl) var(--spacing-sm);
+}
+
+header {
+    text-align: center;
+    padding: var(--spacing-lg) var(--spacing-sm);
+}
+
+footer {
+    text-align: center;
+    padding: var(--spacing-lg) var(--spacing-sm);
+    border-top: 4px solid var(--color-accent);
+    box-shadow: 0 -4px 20px rgba(106, 27, 154, 0.1);
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: var(--spacing-xl) 0;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--border-radius-md);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* ==========================================================================
+   5. COMPONENTES
+   ========================================================================== */
+
+/* --- Encabezado Principal (H1) --- */
+header h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: clamp(3rem, 10vw, 5.5rem);
+    text-transform: uppercase;
+    line-height: 1.1;
+    letter-spacing: 2px;
+    background: linear-gradient(180deg, var(--color-brand-cyan), var(--color-brand-blue));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 4px 4px 0 var(--color-brand-shadow);
+    animation: fadeIn 1.5s ease-in-out;
+    margin: 0;
+    /* Reseteamos el margen para el h1 principal */
+}
+
+/* --- Tarjetas (.card) --- */
 .card {
     margin-bottom: var(--spacing-xl);
     padding: var(--spacing-lg);
     border-radius: var(--border-radius-md);
-    box-shadow: 0 4px 20px rgba(106, 27, 154, 0.15);
-    border: 2px solid var(--color-accent);
-    background: linear-gradient(135deg, var(--bg-light-2), var(--bg-light-1));
-    color: var(--color-primary-dark);
+    box-shadow: 0 4px 20px rgba(106, 27, 154, 0.1);
+    border: 1px solid #eee;
+    background: var(--bg-light-1);
 }
 
 .card--highlight {
@@ -101,36 +165,33 @@ a:focus {
     text-align: center;
 }
 
-/* --- 5. Estructura de la Página (Layout) --- */
-header,
-footer {
-    text-align: center;
-    padding: var(--spacing-lg) var(--spacing-sm);
+/* --- Botón (.btn) --- */
+.btn {
+    display: inline-block;
+    margin-top: var(--spacing-md);
+    background: linear-gradient(135deg, var(--color-primary-dark), #5a40b5);
+    color: var(--bg-light-1);
+    padding: var(--spacing-sm) var(--spacing-lg);
+    text-decoration: none;
+    border-radius: var(--border-radius-lg);
+    font-size: 1.2rem;
+    font-weight: var(--font-weight-bold);
+    box-shadow: 0 6px 20px rgba(23, 23, 22, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
 }
 
-header {
-    border-bottom: 4px solid var(--color-accent);
-    padding-top: var(--spacing-xl);
+.btn:hover,
+.btn:focus {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 8px 25px rgba(23, 23, 22, 0.3);
+    text-decoration: none;
+    color: white;
 }
 
-main {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: var(--spacing-xl) var(--spacing-sm);
-}
-
-footer {
-    border-top: 4px solid var(--color-accent);
-    box-shadow: 0 -4px 20px rgba(106, 27, 154, 0.2);
-}
-
-/* --- 6. ESTILOS DE TESTIMONIOS (ACTUALIZADO) --- */
+/* --- Testimonios --- */
 .testimonials-section {
     text-align: center;
-}
-
-.testimonials-section h3 {
-    margin-bottom: var(--spacing-lg);
 }
 
 .testimonial {
@@ -147,7 +208,7 @@ footer {
     border-radius: 50%;
     object-fit: cover;
     border: 4px solid white;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 }
 
 .testimonial__content {
@@ -155,15 +216,11 @@ footer {
 }
 
 .testimonial__name {
-    margin-bottom: var(--spacing-sm);
     color: var(--color-primary-dark);
 }
 
 .testimonial__text {
-    font-size: 0.95rem;
-    line-height: 1.8;
-    color: #555;
-    margin-bottom: var(--spacing-md);
+    color: var(--color-text-light);
 }
 
 .testimonial__rating {
@@ -171,7 +228,6 @@ footer {
     font-size: 1.2rem;
 }
 
-/* Estilo 1: Tarjeta Blanca */
 .testimonial--card {
     display: flex;
     flex-direction: column;
@@ -180,26 +236,17 @@ footer {
     gap: var(--spacing-md);
 }
 
-@media (min-width: 768px) {
-    .testimonial--card {
-        flex-direction: row;
-        align-items: flex-start;
-    }
-}
-
-/* Estilo 2: Teléfono */
 .testimonial--phone {
     background: linear-gradient(45deg, var(--color-gold), #ffde9e);
     padding: var(--spacing-md);
 }
 
 .testimonial--phone .testimonial__screen {
-    background: var(--color-dark-gray);
+    background: var(--color-text-body);
     color: var(--bg-light-2);
     border-radius: var(--border-radius-md);
     padding: var(--spacing-xl) var(--spacing-md) var(--spacing-md);
     margin-top: 50px;
-    /* Espacio para la foto */
     position: relative;
     text-align: center;
 }
@@ -209,7 +256,6 @@ footer {
     top: 0;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* Centra y saca la imagen */
     width: 110px;
     height: 110px;
     border-color: var(--color-gold);
@@ -217,7 +263,6 @@ footer {
 
 .testimonial--phone .testimonial__name {
     color: var(--bg-light-1);
-    margin-top: var(--spacing-sm);
 }
 
 .testimonial--phone .testimonial__text {
@@ -225,33 +270,8 @@ footer {
 }
 
 
-/* --- OTROS COMPONENTES --- */
-.btn {
-    /* ... (estilos del botón sin cambios) ... */
-    display: inline-block;
-    margin-top: var(--spacing-md);
-    background: linear-gradient(135deg, var(--color-primary-dark), #5a40b5);
-    color: var(--bg-light-1);
-    padding: var(--spacing-sm) var(--spacing-lg);
-    text-decoration: none;
-    border-radius: var(--border-radius-lg);
-    font-size: 1.2rem;
-    font-weight: var(--font-weight-bold);
-    box-shadow: 0 6px 20px rgba(23, 23, 22, 0.3);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 2px solid transparent;
-}
-
-.btn:hover,
-.btn:focus {
-    transform: translateY(-4px) scale(1.05);
-    box-shadow: 0 8px 25px rgba(23, 23, 22, 0.4);
-    text-decoration: none;
-    color: white;
-}
-
+/* --- Botón de Volver Arriba --- */
 .scroll-to-top {
-    /* ... (estilos sin cambios) ... */
     display: none;
     position: fixed;
     bottom: 20px;
@@ -264,7 +284,7 @@ footer {
     height: 50px;
     font-size: 24px;
     cursor: pointer;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, background-color 0.3s ease;
     z-index: 1000;
 }
@@ -274,7 +294,10 @@ footer {
     transform: scale(1.1);
 }
 
-/* --- Animaciones --- */
+/* ==========================================================================
+   6. ANIMACIONES
+   ========================================================================== */
+
 .reveal-on-scroll {
     opacity: 0;
     transform: translateY(30px);
@@ -284,18 +307,6 @@ footer {
 .reveal-on-scroll.is-visible {
     opacity: 1;
     transform: translateY(0);
-}
-
-@keyframes glow {
-
-    0%,
-    100% {
-        text-shadow: 0 0 5px var(--color-accent), 0 0 10px var(--color-accent);
-    }
-
-    50% {
-        text-shadow: 0 0 20px var(--color-accent), 0 0 30px #a7d8f3;
-    }
 }
 
 @keyframes fadeIn {
@@ -308,4 +319,19 @@ footer {
     }
 }
 
-/* ... (resto de los estilos y media queries sin cambios) ... */
+/* ==========================================================================
+   7. MEDIA QUERIES (DISEÑO RESPONSIVO)
+   ========================================================================== */
+
+@media (min-width: 768px) {
+    .testimonial--card {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        text-shadow: 3px 3px 0 var(--color-brand-shadow);
+    }
+}
