@@ -16,7 +16,7 @@
 
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css?v=8">
+    <link rel="stylesheet" href="style.css?v=9">
 </head>
 
 <body>
@@ -49,7 +49,7 @@
                 </li>
                 <li class="list-group-item d-flex align-items-center">
                     <i class="bi bi-people-fill me-2 text-success"></i>
-                    <strong>Taller de conductas parentales</strong> con <em>manual de apoyo</em>.
+                    <strong>Taller de conductas parentales</strong>
                 </li>
                 <li class="list-group-item d-flex align-items-center">
                     <i class="bi bi-book-fill me-2 text-warning"></i>
@@ -109,6 +109,21 @@
                     <br>
                     <i class="bi bi-arrow-repeat"></i> Programa de 90 días de conversión a una impronta neutral
                 </h3>
+
+                <h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                        width="60" height="60" viewBox="0 0 256 256" xml:space="preserve">
+                        <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+                            transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                            <path
+                                d="M 45 0 C 20.147 0 0 20.147 0 45 c 0 24.853 20.147 45 45 45 s 45 -20.147 45 -45 C 90 20.147 69.853 0 45 0 z M 57.659 66.092 C 54.319 68.698 49.932 70 44.499 70 c -3.185 0 -6.141 -0.607 -8.868 -1.82 c -2.728 -1.214 -4.793 -2.895 -6.196 -5.043 c -1.403 -2.149 -2.104 -4.594 -2.104 -7.332 h 11.322 c 0 1.493 0.601 2.784 1.804 3.874 c 1.202 1.091 2.683 1.637 4.442 1.637 c 1.981 0 3.562 -0.552 4.743 -1.653 c 1.179 -1.103 1.77 -2.51 1.77 -4.225 c 0 -2.449 -0.613 -4.186 -1.837 -5.211 c -1.225 -1.023 -2.918 -1.536 -5.077 -1.536 h -5.478 v -8.383 h 5.311 c 4.208 0 6.312 -2.06 6.312 -6.179 c 0 -1.603 -0.5 -2.911 -1.503 -3.925 c -1.002 -1.013 -2.416 -1.52 -4.241 -1.52 c -1.492 0 -2.789 0.434 -3.892 1.303 c -1.102 0.868 -1.653 1.949 -1.653 3.239 H 28.099 c 0 -2.56 0.712 -4.843 2.137 -6.847 c 1.425 -2.004 3.401 -3.568 5.928 -4.693 C 38.693 20.563 41.47 20 44.499 20 c 5.411 0 9.664 1.236 12.759 3.707 c 3.094 2.472 4.642 5.868 4.642 10.187 c 0 2.093 -0.64 4.069 -1.921 5.928 c -1.28 1.86 -3.145 3.368 -5.594 4.526 c 2.582 0.936 4.61 2.355 6.079 4.259 c 1.468 1.904 2.204 4.259 2.204 7.065 C 62.669 60.013 60.998 63.487 57.659 66.092 z"
+                                style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #00cfff; fill-rule: nonzero; opacity: 1;"
+                                transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                        </g>
+                    </svg>
+                    <br>
+                    <i class="bi bi-brilliance"></i> Activación Cruz de Ank
+                </h3>
             </div>
 
         </section>
@@ -117,7 +132,7 @@
             <h3><i class="bi bi-calendar-event-fill"></i> Detalles del evento</h3>
             <ul>
                 <li><i class="bi bi-calendar2-check"></i><strong> Fecha:</strong> 15 de Noviembre, 2025</li>
-                <li><i class="bi bi-clock-fill"></i><strong> Horarios:</strong> 3:00 PM a 5:00 PM / 7:00 PM a 8:00 PM
+                <li><i class="bi bi-clock-fill"></i><strong> Horarios:</strong> 3:00 PM a 5:00 PM / 7:00 PM a 9:00 PM
                     (Hora Colombia)</li>
                 <li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
                         width="19" height="19" viewBox="0 0 256 256" xml:space="preserve">

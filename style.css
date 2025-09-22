@@ -137,11 +137,11 @@ header h1 {
     text-transform: uppercase;
     line-height: 1.1;
     letter-spacing: 2px;
-    background: linear-gradient(180deg, #3c2c84, #3c2c84);
+    background: linear-gradient(180deg, #616069, #616069);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    text-shadow: 4px 4px 0 var(--color-brand-cyan);
+    text-shadow: 4px 4px 0 #0cc0df;
     animation: fadeIn 1.5s ease-in-out;
     margin: 0;
     /* Reseteamos el margen para el h1 principal */
@@ -332,7 +332,7 @@ header h1 {
 
 @media (max-width: 600px) {
     header h1 {
-        text-shadow: 3px 3px 0 var(--color-brand-cyan);
+        text-shadow: 2px 2px 0 #0cc0df;
     }
 }
 
